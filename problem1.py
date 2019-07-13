@@ -25,7 +25,7 @@ def obtain_max(p, n):
 def n_first(n):
     return n*(n+1)/2
 %%time
-print(sum_divisors_fast(1000000))
+print(sum_divisors_fast(10000000000))
 
 %%time
-print(sum_divisors(1000000))
+print(sum_divisors(10000000000))
